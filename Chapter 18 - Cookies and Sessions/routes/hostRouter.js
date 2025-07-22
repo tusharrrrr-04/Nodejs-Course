@@ -9,7 +9,7 @@ const {
   getHostHomes,
   getEditHome,
   postEditHome,
-  postDeleteHome
+  postDeleteHome,
 } = require("../controllers/hostController");
 
 hostRouter.get("/add-home", getAddHome);
